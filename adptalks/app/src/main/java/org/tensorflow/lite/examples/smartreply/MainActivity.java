@@ -31,12 +31,14 @@ public class MainActivity extends AppCompatActivity {
     Log.v(TAG, "onCreate");
     setContentView(R.layout.tfe_sr_main_activity);
 
+    // Initialize the SmartReplyClient and the Handler.
     client = new SmartReplyClient(getApplicationContext());
     handler = new Handler();
 
     scrollView = findViewById(R.id.scroll_view);
     messageTextView = findViewById(R.id.message_text);
 
+    // Get UI elements and set up the message input box.
     messageInput = findViewById(R.id.message_input);
     messageInput.setOnKeyListener(
         (view, keyCode, keyEvent) -> {
@@ -48,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
           return false;
         });
 
+    // Set up the Send button.
     Button sendButton = findViewById(R.id.send_button);
     sendButton.setOnClickListener((View v) -> send(messageInput.getText().toString()));
   }
@@ -56,6 +59,8 @@ public class MainActivity extends AppCompatActivity {
   protected void onStart() {
     super.onStart();
     Log.v(TAG, "onStart");
+    
+    // Load the model on a background thread.
     handler.post(
         () -> {
           client.loadModel();
@@ -66,6 +71,8 @@ public class MainActivity extends AppCompatActivity {
   protected void onStop() {
     super.onStop();
     Log.v(TAG, "onStop");
+    
+    // Unload the Smart Reply model on a background thread.
     handler.post(
         () -> {
           client.unloadModel();
@@ -85,6 +92,7 @@ public class MainActivity extends AppCompatActivity {
           }
           textToShow.append("------").append("\n");
 
+          // Update the UI with the message and suggested replies.
           runOnUiThread(
               () -> {
                 // Show the message and suggested replies on screen.
