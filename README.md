@@ -11,8 +11,10 @@ The On-Device Smart Reply model is a contextually relevant, one-touch response s
 The on-device Smart Reply model has several benefits, including:
 
 *  **Faster inference**   as the model resides on the device and does not require internet connectivity
-   **Resource-efficient** as the model has a small memory footprint on the device
-   **Privacy-friendly**   as user data never leaves the device
+
+*  **Resource-efficient** as the model has a small memory footprint on the device
+
+*  **Privacy-friendly**   as user data never leaves the device
 
 #### ___________________________________________________________________________
 
