@@ -14,22 +14,18 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-/** Helper to load assets. */
+
 public class AssetsUtil {
 
   private AssetsUtil() {}
 
-  /**
-   * Gets AssetFileDescriptor directly for given a path, or returns its copy by caching for the
-   * compressed one.
-   */
+
   public static AssetFileDescriptor getAssetFileDescriptorOrCached(
       Context context, String assetPath) throws IOException {
     try {
       return context.getAssets().openFd(assetPath);
     } catch (FileNotFoundException e) {
-      // If it cannot read from asset file (probably compressed), try copying to cache folder and
-      // reloading.
+      
       File cacheFile = new File(context.getCacheDir(), assetPath);
       cacheFile.getParentFile().mkdirs();
       copyToCacheFile(context, assetPath, cacheFile);
