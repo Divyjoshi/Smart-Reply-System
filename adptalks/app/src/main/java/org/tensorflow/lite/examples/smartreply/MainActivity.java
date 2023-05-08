@@ -1,6 +1,7 @@
-
+// Import required packages.
 package org.tensorflow.lite.examples.smartreply;
 
+// Import necessary classes.
 import android.os.Bundle;
 import android.os.Handler;
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,19 +17,24 @@ import android.widget.TextView;
  * Displays a text box which updates as messages are received.
  */
 public class MainActivity extends AppCompatActivity {
+  // Create a constant to hold a tag for logging purposes.
   private static final String TAG = "ADPTalksDemo";
+  // Create an instance of SmartReplyClient to handle message prediction.
   private SmartReplyClient client;
-
+  // Declare UI elements.
   private TextView messageTextView;
   private EditText messageInput;
   private ScrollView scrollView;
-
+ 
+  // Create a handler to perform background tasks.
   private Handler handler;
 
+  // Initialize the activity.
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     Log.v(TAG, "onCreate");
+    // Set the layout for the activity.
     setContentView(R.layout.tfe_sr_main_activity);
 
     // Initialize the SmartReplyClient and the Handler.
@@ -54,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
     Button sendButton = findViewById(R.id.send_button);
     sendButton.setOnClickListener((View v) -> send(messageInput.getText().toString()));
   }
-
+   // When the activity is started, load the Smart Reply model in the background.
   @Override
   protected void onStart() {
     super.onStart();
@@ -78,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
           client.unloadModel();
         });
   }
-
+// Send a message and get suggested replies from the Smart Reply model.
   private void send(final String message) {
     handler.post(
         () -> {
