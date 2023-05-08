@@ -64,3 +64,13 @@ Ops and Functionality Supported
 
 *  **HASHTABLE_LOOKUP** 
                an op inside TensorFlow Lite that uses label ID from the PREDICT op and looks up the response text from the given label ID.
+               
+               
+#### ___________________________________________________________________________
+
+## ADP Talks DEMO
+
+
+https://user-images.githubusercontent.com/75930738/236729770-b9bcc3e5-6e27-4fa2-b5b5-15c80b377eca.mp4
+
+
