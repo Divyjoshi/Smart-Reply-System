@@ -1,3 +1,5 @@
+## Backoff resposnes that was compiled from popular response intents observed in chat conversations.
+
 Ok
 Yes
 No
