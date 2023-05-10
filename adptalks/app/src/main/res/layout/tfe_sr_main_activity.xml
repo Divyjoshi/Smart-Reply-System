@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="@dimen/tfe_sr_activity_margin"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity">  <!-- This is the start of a ConstraintLayout with defined namespaces and attributes, with a match parent size, margin, and associated context for the MainActivity.-->
 
     <ScrollView
         android:id="@+id/scroll_view"
@@ -19,7 +19,7 @@
             android:id="@+id/message_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
-    </ScrollView>
+    </ScrollView> <!-- This creates a scrollable container with a text view inside and constraints it to the top of the parent and bottom of the view with the id "message_input".-->
 
     <EditText
         android:id="@+id/message_input"
@@ -31,8 +31,8 @@
         app:layout_constraintBaseline_toBaselineOf="@+id/send_button"
         app:layout_constraintEnd_toStartOf="@+id/send_button"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent" />
-
+        app:layout_constraintBottom_toBottomOf="parent" />  <!-- This code defines an EditText for user input with constraints to position it above a send button, with a hint and input type specified.-->
+ 
     <Button
         android:id="@+id/send_button"
         android:layout_width="wrap_content"
@@ -43,4 +43,4 @@
         app:layout_constraintStart_toEndOf="@+id/message_input"
         />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout> <!-- This code defines a Button widget with ID "send_button" inside a ConstraintLayout, which is constrained to the bottom and end of the parent, and to the start of the EditText widget with ID "message_input".-->
