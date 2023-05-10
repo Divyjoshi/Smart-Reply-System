@@ -6,165 +6,165 @@
     android:viewportWidth="108">
     <path
         android:fillColor="#26A69A"
-        android:pathData="M0,0h108v108h-108z" />
+        android:pathData="M0,0h108v108h-108z" /> <!-- these properties create a rectangular vector shape with a teal fill color.-->
     <path
         android:fillColor="#00000000"
         android:pathData="M9,0L9,108"
         android:strokeColor="#33FFFFFF"
-        android:strokeWidth="0.8" />
+        android:strokeWidth="0.8" /> <!--  these attributes define a vertical line with a semi-transparent white outline that is 0.8 pixels wide, and no fill color.-->
     <path
         android:fillColor="#00000000"
         android:pathData="M19,0L19,108"
         android:strokeColor="#33FFFFFF"
-        android:strokeWidth="0.8" />
+        android:strokeWidth="0.8" />  <!-- these attributes define a vertical line shape with a semi-transparent white stroke, and a transparent fill -->
     <path
         android:fillColor="#00000000"
         android:pathData="M29,0L29,108"
         android:strokeColor="#33FFFFFF"
-        android:strokeWidth="0.8" />
+        android:strokeWidth="0.8" /> <!-- Defines a vertical line vector shape with semi-transparent white stroke and no fill color-->
     <path
         android:fillColor="#00000000"
         android:pathData="M39,0L39,108"
         android:strokeColor="#33FFFFFF"
-        android:strokeWidth="0.8" />
+        android:strokeWidth="0.8" /> <!-- Creates a vertical line shape with semi-transparent white stroke color and no fill starting at x=39.-->
     <path
         android:fillColor="#00000000"
         android:pathData="M49,0L49,108"
         android:strokeColor="#33FFFFFF"
-        android:strokeWidth="0.8" />
+        android:strokeWidth="0.8" /> <!-- Draws a vertical line with white color stroke and no fill, from (49,0) to (49,108).-->
     <path
         android:fillColor="#00000000"
         android:pathData="M59,0L59,108"
         android:strokeColor="#33FFFFFF"
-        android:strokeWidth="0.8" />
+        android:strokeWidth="0.8" />  <!--  defines a vertical line with no fill color, a white stroke color with 0.8 stroke width, starting at coordinate (59,0) and ending at (59,108)-->
     <path
         android:fillColor="#00000000"
         android:pathData="M69,0L69,108"
         android:strokeColor="#33FFFFFF"
-        android:strokeWidth="0.8" />
+        android:strokeWidth="0.8" /> <!-- defines a vertical line with no fill color and a white stroke color of width 0.8, starting at (69,0) and ending at (69,108). -->
     <path
         android:fillColor="#00000000"
         android:pathData="M79,0L79,108"
         android:strokeColor="#33FFFFFF"
-        android:strokeWidth="0.8" />
+        android:strokeWidth="0.8" /> <!-- defines a vertical line with no fill color and a white stroke color of width 0.8, starting at (79,0) and ending at (79,108) -->
     <path
         android:fillColor="#00000000"
         android:pathData="M89,0L89,108"
         android:strokeColor="#33FFFFFF"
-        android:strokeWidth="0.8" />
+        android:strokeWidth="0.8" /> <!-- creates a vertical line from point (89,0) to point (89,108) with a stroke color of semi-transparent white and a stroke width of 0.8, and no fill color.-->
     <path
         android:fillColor="#00000000"
         android:pathData="M99,0L99,108"
         android:strokeColor="#33FFFFFF"
-        android:strokeWidth="0.8" />
+        android:strokeWidth="0.8" /> <!-- defines a vertical line from point (99,0) to point (99,108) with stroke of semi-transparent white and width of 0.8 -->
     <path
         android:fillColor="#00000000"
         android:pathData="M0,9L108,9"
-        android:strokeColor="#33FFFFFF"
-        android:strokeWidth="0.8" />
+        android:strokeColor="#33FFFFFF" 
+        android:strokeWidth="0.8" />  <!-- defines a horizontal line with no fill color and a stroke color of white with a width of 0.8 -->
     <path
         android:fillColor="#00000000"
         android:pathData="M0,19L108,19"
         android:strokeColor="#33FFFFFF"
-        android:strokeWidth="0.8" />
+        android:strokeWidth="0.8" /> <!-- defines a white color horizontal stroke starting from point (0,19) to point (19,108) -->
     <path
         android:fillColor="#00000000"
         android:pathData="M0,29L108,29"
         android:strokeColor="#33FFFFFF"
-        android:strokeWidth="0.8" />
+        android:strokeWidth="0.8" /> <!-- defines a white color horizontal stroke strating from point (0,29) to point (29,108) with width of 0.8 -->
     <path
         android:fillColor="#00000000"
         android:pathData="M0,39L108,39"
         android:strokeColor="#33FFFFFF"
-        android:strokeWidth="0.8" />
+        android:strokeWidth="0.8" /> <!-- defines a white color horizontal stroke strating from point (0,39) to point (39,108) with width of 0.8 -->
     <path
         android:fillColor="#00000000"
         android:pathData="M0,49L108,49"
         android:strokeColor="#33FFFFFF"
-        android:strokeWidth="0.8" />
+        android:strokeWidth="0.8" /> <!-- defines a white color horizontal stroke strating from point (0,49) to point (49,108) with width of 0.8 -->
     <path
         android:fillColor="#00000000"
         android:pathData="M0,59L108,59"
         android:strokeColor="#33FFFFFF"
-        android:strokeWidth="0.8" />
+        android:strokeWidth="0.8" />  <!-- defines a white color horizontal stroke strating from point (0,59) to point (59,108) with width of 0.8 -->
     <path
         android:fillColor="#00000000"
         android:pathData="M0,69L108,69"
         android:strokeColor="#33FFFFFF"
-        android:strokeWidth="0.8" />
+        android:strokeWidth="0.8" />  <!-- defines a white color horizontal stroke strating from point (0,69) to point (69,108) with width of 0.8 -->
     <path
         android:fillColor="#00000000"
         android:pathData="M0,79L108,79"
         android:strokeColor="#33FFFFFF"
-        android:strokeWidth="0.8" />
+        android:strokeWidth="0.8" /> <!-- defines a white color horizontal stroke strating from point (0,79) to point (79,108) with width of 0.8 -->
     <path
         android:fillColor="#00000000"
         android:pathData="M0,89L108,89"
         android:strokeColor="#33FFFFFF"
-        android:strokeWidth="0.8" />
+        android:strokeWidth="0.8" /> <!-- defines a white color horizontal stroke strating from point (0,89) to point (89,108) with width of 0.8 -->
     <path
         android:fillColor="#00000000"
         android:pathData="M0,99L108,99"
         android:strokeColor="#33FFFFFF"
-        android:strokeWidth="0.8" />
+        android:strokeWidth="0.8" /> <!-- defines a white color horizontal stroke strating from point (0,99) to point (99,108) with width of 0.8 -->
     <path
         android:fillColor="#00000000"
         android:pathData="M19,29L89,29"
         android:strokeColor="#33FFFFFF"
-        android:strokeWidth="0.8" />
+        android:strokeWidth="0.8" /> <!-- Path with horizontal line and semi-transparent stroke from (19,29) to (89,29) -->
     <path
         android:fillColor="#00000000"
         android:pathData="M19,39L89,39"
         android:strokeColor="#33FFFFFF"
-        android:strokeWidth="0.8" />
+        android:strokeWidth="0.8" />  <!-- Path with horizontal line and semi-transparent stroke from (19,39) to (89,39) -->
     <path
         android:fillColor="#00000000"
         android:pathData="M19,49L89,49"
         android:strokeColor="#33FFFFFF"
-        android:strokeWidth="0.8" />
+        android:strokeWidth="0.8" /> <!-- Path with horizontal line and semi-transparent stroke from (19,49) to (89,49) -->
     <path
         android:fillColor="#00000000"
         android:pathData="M19,59L89,59"
         android:strokeColor="#33FFFFFF"
-        android:strokeWidth="0.8" />
+        android:strokeWidth="0.8" />  <!-- Path with horizontal line and semi-transparent stroke from (19,59) to (89,59) -->
     <path
         android:fillColor="#00000000"
         android:pathData="M19,69L89,69"
         android:strokeColor="#33FFFFFF"
-        android:strokeWidth="0.8" />
+        android:strokeWidth="0.8" /> <!-- Path with horizontal line and semi-transparent stroke from (19,69) to (89,69) -->
     <path
         android:fillColor="#00000000"
         android:pathData="M19,79L89,79"
         android:strokeColor="#33FFFFFF"
-        android:strokeWidth="0.8" />
+        android:strokeWidth="0.8" /> <!-- Path with horizontal line and semi-transparent stroke from (19,79) to (89,79) -->
     <path
         android:fillColor="#00000000"
         android:pathData="M29,19L29,89"
         android:strokeColor="#33FFFFFF"
-        android:strokeWidth="0.8" />
+        android:strokeWidth="0.8" /> <!-- Path with horizontal line and semi-transparent stroke from (29,19) to (29,89) -->
     <path
         android:fillColor="#00000000"
         android:pathData="M39,19L39,89"
         android:strokeColor="#33FFFFFF"
-        android:strokeWidth="0.8" />
+        android:strokeWidth="0.8" /> <!-- Path with horizontal line and semi-transparent stroke from (39,19) to (39,89) -->
     <path
         android:fillColor="#00000000"
         android:pathData="M49,19L49,89"
         android:strokeColor="#33FFFFFF"
-        android:strokeWidth="0.8" />
+        android:strokeWidth="0.8" /> <!-- Path with horizontal line and semi-transparent stroke from (49,19) to (49,89) -->
     <path
         android:fillColor="#00000000"
         android:pathData="M59,19L59,89"
         android:strokeColor="#33FFFFFF"
-        android:strokeWidth="0.8" />
+        android:strokeWidth="0.8" /> <!-- Path with horizontal line and semi-transparent stroke from (59,19) to (59,89) -->
     <path
         android:fillColor="#00000000"
         android:pathData="M69,19L69,89"
         android:strokeColor="#33FFFFFF"
-        android:strokeWidth="0.8" />
+        android:strokeWidth="0.8" /> <!-- Path with horizontal line and semi-transparent stroke from (69,19) to (69,89) -->
     <path
         android:fillColor="#00000000"
         android:pathData="M79,19L79,89"
         android:strokeColor="#33FFFFFF"
-        android:strokeWidth="0.8" />
+        android:strokeWidth="0.8" /> <!-- Path with horizontal line and semi-transparent stroke from (79,19) to (79,89) -->
 </vector>
